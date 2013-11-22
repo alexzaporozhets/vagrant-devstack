@@ -2,7 +2,7 @@
 git clone https://github.com/openstack-dev/devstack.git
 cd devstack
 
-cat >/etc/myconfig.conf <<EOL
+cat >localrc <<EOL
 ADMIN_PASSWORD=password
 MYSQL_PASSWORD=password
 RABBIT_PASSWORD=password
